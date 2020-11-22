@@ -1,4 +1,5 @@
 {
+	"private": true,
 	"name": "mediawiki-extension-collapsiblesections",
 	"version": "0.0.1",
 	"description": "Allows users to collapse and expand content sections on demand",
@@ -20,7 +21,7 @@
 		"grunt": "1.3.0",
 		"grunt-banana-checker": "0.9.0",
 		"grunt-eslint": "23.0.0",
-		"grunt-stylelint": "0.15.0",
-		"stylelint-config-wikimedia": "0.10.1"
+		"grunt-stylelint": "0.16.0",
+		"stylelint-config-wikimedia": "0.10.3"
 	}
 }
