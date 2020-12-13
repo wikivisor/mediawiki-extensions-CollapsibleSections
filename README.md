@@ -4,7 +4,7 @@ This extension (for MediaWiki) makes it possible for users to collapse and expan
 
 # Requirements
 
-* MediaWiki 1.36+
+* MediaWiki 1.35+
 
 # Installation
 
