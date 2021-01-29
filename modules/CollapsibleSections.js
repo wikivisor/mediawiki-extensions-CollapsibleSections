@@ -32,7 +32,7 @@
 	 * Check whether a mobile device is used. The `navigator` object global contains
 	 * information about the browser. See: https://www.w3schools.com/jsref/obj_navigator.asp.
 	 *
-	 * @return {Boolean} Whether the user agent matched that of a mobile browser.
+	 * @return {boolean} Whether the user agent matched that of a mobile browser.
 	 */
 	function isMobile() {
 		return navigator.userAgent.match( /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i );

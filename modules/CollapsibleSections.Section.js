@@ -52,6 +52,7 @@
 
 	/**
 	 * Section click event handler
+	 *
 	 * @param {Event} event
 	 */
 	CollapsibleSection.prototype.toggleState = function ( event ) {
