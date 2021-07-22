@@ -20,7 +20,7 @@ class CollapsibleSectionsHooks implements
 	 * @param OutputPage $out
 	 * @param Skin $skin
 	 */
-	public function onBeforePageDisplay( $out, $skin ) : void {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		$out->addModules( 'ext.collapsiblesections.main' );
 	}
 
@@ -29,7 +29,7 @@ class CollapsibleSectionsHooks implements
 	 * @param string $skin
 	 * @param Config $config
 	 */
-	public function onResourceLoaderGetConfigVars( &$vars, $skin, Config $config ) : void {
+	public function onResourceLoaderGetConfigVars( &$vars, $skin, Config $config ): void {
 		$vars['wgCollapsibleSectionsCollapsedByDefault'] = $config->get( 'CollapsibleSectionsCollapsedByDefault' );
 		$vars['wgCollapsibleSectionsEnableDesktop'] = $config->get( 'CollapsibleSectionsEnableDesktop' );
 		$vars['wgCollapsibleSectionsTag'] = $config->get( 'CollapsibleSectionsTag' );
