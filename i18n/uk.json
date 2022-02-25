@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"collapsiblesections-desc": "Дозволяє користувачам згортати та розширювати розділи вмісту на вимогу"
