@@ -1,7 +1,7 @@
 .collapsible-header {
 	margin-bottom: 0 !important; /* stylelint-disable-line declaration-no-important */
 
-	&:before {
+	&::before {
 		content: '';
 		display: inline-block;
 		width: 18px;
@@ -13,7 +13,7 @@
 		transition: transform 0.15s linear;
 	}
 
-	&.collapsible-header--expanded:before {
+	&.collapsible-header--expanded::before {
 		transform: rotate( 90deg );
 	}
 
