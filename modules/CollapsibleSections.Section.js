@@ -36,7 +36,7 @@
 
 		// Find and wrap all contents until next section (any heading!)
 		// eslint-disable-next-line no-jquery/no-sizzle,no-jquery/variable-pattern
-		elements = this.$element.nextUntil( ':header' );
+		elements = this.$element.nextUntil( mw.config.get( 'wgCollapsibleSectionsTag' ));
 		if ( elements.length ) {
 			this.$element.addClass( 'collapsible-header' );
 			elements.wrapAll( '<div class="collapsible-header-content" />' );
